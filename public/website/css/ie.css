@@ -1,0 +1,33 @@
+.ip-header .ip-loader:before {
+    content: 'Loading' !important;
+    background: transparent !important;
+}
+
+.ip-header .ip-loader:after {
+    content: '' !important;
+    background: transparent !important;
+}
+
+.loaded .ip-header {
+    display: none !important;
+}
+
+.cbp-bislideshow {
+    /*position: absolute !important;*/
+}
+
+.slideshow-property,
+.ie-only .slideshow-property-gallery {
+    position: relative !important;
+    height: 100% !important;
+}
+
+.slideshow-property-navigation {
+    z-index: 99999;
+}
+
+.booking-form-wrapper label.sr-only {
+    width: auto !important;
+    height: auto !important;
+    display: block !important;
+}

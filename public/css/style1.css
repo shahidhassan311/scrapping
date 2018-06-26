@@ -1,0 +1,138 @@
+.navlogo {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .container-fluid{
+        padding: 15px !important;
+    }
+    .container{
+        padding: 15px !important;
+    }
+    .navlogo {
+        width: 100px;
+    }
+
+    .navbar {
+        min-height: 60px !important;
+    }
+
+    .navbar-brand {
+        float: right !important;
+        width: 58% !important;
+        text-align: center !important;
+
+    }
+
+    .navbar-toggle {
+        margin-top: 15px !important;
+        padding-left: 50px !important;
+
+    }
+
+    .navbar-nav {
+        padding-left: 0px !important;
+    }
+
+    .navbar-collapse {
+        margin-top: 30px !important;
+    }
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar {
+    min-height: 104px;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#navbar {
+    padding-top: 22px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-nav {
+    padding-left: 80px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white !important;
+    background-color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-menu > li > a {
+    color: white !important;
+    font-weight: 600;
+}
+
+.dropdown-menu > li > a:hover {
+    color: white !important;
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 35px;
+}
+
+.navbar-toggle {
+    float: left;
+    border-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle:hover {
+    background-color: transparent !important;
+}
+
+.navbar-toggle:focus {
+    background-color: transparent !important;
+}
+
+.inn-banner {
+    margin-top: 104px;
+    position: relative;
+    height: 260px;
+
+    background: url(../images/inn-bg.jpg) no-repeat;
+    background-size: cover;
+    color: #b4b4b4;
+
+}
+
+.main-search-bar {
+    background-color: white;
+}
+
+.formmaindiv{
+    background: white !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: -120px !important;
+    width: 79% !important;
+    background-image: url(http://www.joburgchiropractor.co.za/images/background.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+input{
+    border: 1px solid orangered !important;
+}
+select{
+    border: 1px solid orangered !important;
+}
