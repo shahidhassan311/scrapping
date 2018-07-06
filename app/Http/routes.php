@@ -22,3 +22,5 @@ Route::post('/request_search', 'WebController@request_search');
 Route::get('/detail','LinkController@getDetail');
 
 Route::get('/ottawa','LinkController@getOttawaDetail');
+Route::get('/trip_advisor','LinkController@getTrip_advisorDetail');
+Route::get('/minto','LinkController@getMintoDetail');

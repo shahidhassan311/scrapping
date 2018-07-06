@@ -28,10 +28,9 @@ class Ottawa_craigslist
         $crawler->filter('.result-title.hdrlnk')->each(function ($node) {
 
             $new_crawler = Goutte::request('GET',$node->attr('href'));
-
-
             $link_explode = explode('/', $node->attr('href'));
             $arr_len = count($link_explode);
+
             $new_arr = explode('.',$link_explode[$arr_len-1]);
 //            echo "<pre>";
 //            print_r($new_arr[0]);
